@@ -160,7 +160,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@gmail.com
+Tanish Malekar - [LinkedIn](https://www.linkedin.com/in/tanish-malekar/) - tanishmalekar32@gmail.com
 
 Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-tanish-malekar](https://github.com/dyte-submissions/dyte-vit-2022-tanish-malekar)
 
@@ -171,9 +171,7 @@ Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-tanish-malekar]
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+I would like to thank Dyte for providing this oppurtunity to create a CLI tool as a part of thier hiring challenge. I learnt a lot in the process. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
