@@ -99,6 +99,7 @@ To install the tool, run the following command:
   ```sh
   npm install -g dependency-check-update
   ```
+//insert image
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -116,7 +117,8 @@ The CLI tool has the following 3 features:
 
 Let's look at examples of each of these features:
 
-1. <ins>Check versions:</ins><br>
+1. <ins>Check versions:</ins>
+
 Syntax:
 ```sh
 dependency-check-update -i <CsvFileName> <PackageName@InputVersion>
@@ -127,7 +129,8 @@ dependency-check-update -i data.csv axios@0.23.0
 ```
 //insert image 
 
-2. <ins>Update versions:</ins><br>
+2. <ins>Update versions:</ins>
+
 Syntax:
 ```sh
 dependency-check-update -update -i <CsvFileName> <PackageName@InputVersion>
@@ -138,7 +141,8 @@ dependency-check-update -update -i data.csv axios@0.23.0
 ```
 //insert image 
 
-3. <ins>Update versions to the latest one (additional feature):</ins><br> 
+3. <ins>Update versions to the latest one (additional feature):</ins>
+ 
 Syntax:
 ```sh
 dependency-check-update -updatelatest -i <CsvFileName> <PackageName>
