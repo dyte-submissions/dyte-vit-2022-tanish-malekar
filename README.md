@@ -107,6 +107,8 @@ To install the tool, run the following command:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+<b>IMPORTANT: Make sure the CSV file is present in the current working directory of the terminal. If not, cd into the folder where the file is present.</b>
+
 The examples shown in this section were run a AWS EC2 machine with Ubuntu (Linux).
 
 The CLI tool has the following 3 features:
