@@ -160,10 +160,9 @@ dependency-check-update -updatelatest -i data.csv axios
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [1] Feature 1
+- [1] Feature 2
+- [1] Feature 3
 
 See the [open issues](https://github.com/dyte-submissions/dyte-vit-2022-tanish-malekar/issues) for a full list of proposed features (and known issues).
 
