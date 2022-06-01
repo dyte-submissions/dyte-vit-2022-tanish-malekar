@@ -101,7 +101,6 @@ The names and links to the input github repositories are given to the tool in th
 ### Prerequisites
 
 To install the tool, run the following command:
-* npm
   ```sh
   npm install -g dependency-check-update
   ```
