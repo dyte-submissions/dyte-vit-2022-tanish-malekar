@@ -74,7 +74,7 @@
 ## About The Project
 
 Applications written in Node.js have multiple dependencies and making sure that these dependencies are up to date can be a bit of a hassle.<br />
-dependency-check-update is a CLI tool which helps in comparing the versions of a given package in given github repositories against a given version and returning whether the versions are satisfied or not. If not satisfied, the tool can also create Pull Requests updating the versions to the given version. <br/><br/><b><ins>Additional Feature: An option to update the versions of the given package to the latest version available in npm resgistry is also provided.</ins></b><br><br>
+dependency-check-update is a CLI tool which helps in comparing the versions of a given package in given github repositories against a specified version and returning whether the versions are satisfied or not. If not satisfied, the tool can also create Pull Requests updating the versions to the given version. <br/><br/><b><ins>Additional Feature: An option to update the versions of the given package to the latest version available in npm resgistry is also provided.</ins></b><br><br>
 The names and links to the input github repositories are given to the tool in the form of a csv file. A sample csv file named "data.csv" with test data can be found in the root of this repository. 
 
 
@@ -98,7 +98,9 @@ To install the tool, run the following command:
   ```sh
   npm install -g dependency-check-update
   ```
-//insert image
+Example:
+
+<img src="images/installation.jpg" alt="Installation">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -108,8 +110,6 @@ To install the tool, run the following command:
 <!-- USAGE EXAMPLES -->
 ## Usage
 <b>IMPORTANT: Make sure the CSV file is present in the current working directory of the terminal. If not, cd into the folder where the file is present. A sample CSV file named data.csv is given in this repo for testing purposes.</b>
-
-The examples shown in this section were run a AWS EC2 machine with Ubuntu (Linux).
 
 The CLI tool has the following 3 features:
 1. <ins>Check versions:</ins> Given a list of Github repositories in the form of a csv file (the csv file should have 2 columns: name and repo), such that all of them are node js projects with a package.json and package-lock.json in the root, and the name and version of a dependency, the tool gives the current version of that dependency and tells if the version is greater than or equal to the version specified or not.
@@ -128,7 +128,7 @@ Example:
 ```sh
 dependency-check-update -i data.csv axios@0.23.0
 ```
-//insert image 
+<img src="images/feature1.jpg" alt="feature1"> 
 
 2. <ins>Update versions:</ins>
 
@@ -140,7 +140,7 @@ Example:
 ```sh
 dependency-check-update -update -i data.csv axios@0.23.0
 ```
-//insert image 
+<img src="images/feature2.jpg" alt="feature2">
 
 3. <ins>Update versions to the latest one (additional feature):</ins>
  
@@ -152,7 +152,7 @@ Example:
 ```sh
 dependency-check-update -updatelatest -i data.csv axios
 ```
-//insert image
+<img src="images/feature3.jpg" alt="feature3">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
