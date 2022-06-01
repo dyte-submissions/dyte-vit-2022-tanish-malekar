@@ -98,7 +98,7 @@ To install the tool, run the following command:
   ```sh
   npm install -g dependency-check-update
   ```
-//insert image
+<img src="images/installation.jpg" alt="Installation">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
