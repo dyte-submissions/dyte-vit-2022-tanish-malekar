@@ -78,7 +78,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+A lot of our microservices are written in Node.js and making sure that the dependencies for these services are up to date can be a bit of a hassle.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
