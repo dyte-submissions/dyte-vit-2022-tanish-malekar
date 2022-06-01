@@ -98,16 +98,12 @@ The names and links to the input github repositories are given to the tool in th
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+To install the tool, run the following command:
 * npm
   ```sh
-  npm install npm@latest -g
+  npm install -g dependency-check-update
   ```
 
 ### Installation
