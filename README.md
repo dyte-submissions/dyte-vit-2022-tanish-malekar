@@ -59,9 +59,6 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -97,7 +94,6 @@ The names and links to the input github repositories are given to the tool in th
 
 <!-- GETTING STARTED -->
 ## Getting Started
-### Prerequisites
 
 To install the tool, run the following command:
   ```sh
