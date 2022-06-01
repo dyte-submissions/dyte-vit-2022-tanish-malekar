@@ -61,7 +61,6 @@
       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -156,17 +155,6 @@ dependency-check-update -updatelatest -i data.csv axios
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [1] Feature 1
-- [1] Feature 2
-- [1] Feature 3
-
-See the [open issues](https://github.com/dyte-submissions/dyte-vit-2022-tanish-malekar/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
