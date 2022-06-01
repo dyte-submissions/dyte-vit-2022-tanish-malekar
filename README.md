@@ -79,7 +79,8 @@
 ## About The Project
 
 Applications written in Node.js have multiple dependencies and making sure that these dependencies are up to date can be a bit of a hassle.<br />
-dependency-check-update is a CLI tool which helps in comparing the versions of a given package in given github repositories against a given version and returning whether the versions are satisfied or not. If not satisfied, the tool can also create Pull Requests updating the versions to the given version. <br/><b><u>Additional Feature:<u/> An option to update the versions of the given package to the latest version available in npm resgistry is also provided.</b>     
+dependency-check-update is a CLI tool which helps in comparing the versions of a given package in given github repositories against a given version and returning whether the versions are satisfied or not. If not satisfied, the tool can also create Pull Requests updating the versions to the given version. <br/><br/><b><u>Additional Feature:</u> An option to update the versions of the given package to the latest version available in npm resgistry is also provided.</b><br><br>
+The names and links to the input github repositories are given to the tool in the form of a csv file. 
 
 
 
