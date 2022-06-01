@@ -171,7 +171,7 @@ Project Link: [https://github.com/dyte-submissions/dyte-vit-2022-tanish-malekar]
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-I would like to thank Dyte for providing this oppurtunity to create a CLI tool as a part of thier hiring challenge. I learnt a lot in the process. 
+I would like to thank Dyte for providing this oppurtunity to create a CLI tool as a part of their hiring challenge. I learnt a lot in the process. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
