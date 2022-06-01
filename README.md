@@ -107,10 +107,47 @@ To install the tool, run the following command:
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+The examples shown in this section were run a AWS EC2 machine with Ubuntu (Linux).
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The CLI tool has the following 3 features:
+1. <ins>Check versions:</ins> Given a list of Github repositories in the form of a csv file (the csv file should have 2 columns: name and repo), such that all of them are node js projects with a package.json and package-lock.json in the root, and the name and version of a dependency, the tool gives the current version of that dependency and tells if the version is greater than or equal to the version specified or not.
+2. <ins>Update versions:</ins> For all the repositories that have the version lower than the one specified, if passed as additional param, -update, it will create a Pull Request updating the version.  
+3. <ins>Update versions to the latest one (additional feature):</ins>  Updates the versions of the specified package to the latest version available in npm resgistry by creating PRs.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Let's look at examples of each of these features:
+
+1. <ins>Check versions:</ins>
+Syntax:
+```sh
+dependency-check-update -i <CsvFileName> <PackageName@InputVersion>
+```
+Example:
+```sh
+dependency-check-update -i data.csv axios@0.23.0
+```
+//insert image 
+
+2. <ins>Update versions:</ins>
+Syntax:
+```sh
+dependency-check-update -update -i <CsvFileName> <PackageName@InputVersion>
+```
+Example:
+```sh
+dependency-check-update -update -i data.csv axios@0.23.0
+```
+//insert image 
+
+3. <ins>Update versions to the latest one (additional feature):</ins> 
+Syntax:
+```sh
+dependency-check-update -updatelatest -i <CsvFileName> <PackageName>
+```
+Example:
+```sh
+dependency-check-update -updatelatest -i data.csv axios
+```
+//insert image
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
